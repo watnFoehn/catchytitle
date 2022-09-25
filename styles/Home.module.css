@@ -108,6 +108,15 @@
   margin-left: 0.5rem;
 }
 
+.navBar ul {
+  list-style: none;
+}
+
+.navBar li {
+  display: inline;
+  padding-right: 0.5rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

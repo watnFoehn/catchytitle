@@ -1,24 +1,20 @@
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import useTranslation from "next-translate/useTranslation";
 
 const Navbar = () => {
+  const { t } = useTranslation("common");
   return (
     <nav className={styles.navBar}>
       <ul>
         <Link href="/">
-          <a>
-            <li>Home</li>
-          </a>
+          <li>{t("home")}</li>
         </Link>
         <Link href="/about">
-          <a>
-            <li>About</li>
-          </a>
+          <li>{t("about")}</li>
         </Link>
         <Link href="/more">
-          <a>
-            <li>More details</li>
-          </a>
+          <li>{t("details")}</li>
         </Link>
       </ul>
     </nav>

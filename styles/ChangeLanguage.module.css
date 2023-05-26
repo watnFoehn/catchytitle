@@ -1,0 +1,16 @@
+.languageContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 4rem;
+}
+
+.languageButton {
+  margin-left: 10px;
+  /* Add any additional styling you want for the language buttons */
+}
+
+.active {
+  background-color: #333;
+  color: #fff;
+}

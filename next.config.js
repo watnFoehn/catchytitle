@@ -1,7 +1,9 @@
-/** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} **/
+const nextTranslate = require("next-translate-plugin");
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+};
 
-module.exports = nextConfig
+module.exports = nextTranslate({ nextConfig });

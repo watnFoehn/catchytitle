@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Catchy Title</title>
+        <title>Essential Personal Finance</title>
         <meta
           name="description"
           content="Homepage of my condensed personal financial advice"
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         {/* TODO: Favicon */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className={styles.title}>Catchy Title</h1>
+      <h1 className={styles.title}>Essential Personal Finance</h1>
       <main className={styles.main}>
         <section>
           <ul>

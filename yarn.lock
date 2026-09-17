@@ -2203,12 +2203,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-translate-plugin@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.npmjs.org/next-translate-plugin/-/next-translate-plugin-2.0.5.tgz#9db61207fbdac724b9ab4906194bafcd0b555969"
-  integrity sha512-H5Wecew+EQvrcCfnUiWwev8jS8ICH2Mw1SwWY8v8gXQfCpZ/ubpx+dinMhNZt+1BzqtEke53GHWov6gMvDB8tw==
+next-translate-plugin@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/next-translate-plugin/-/next-translate-plugin-3.2.0.tgz#c06c85e5d88d8850114b1147ac3889e6ca7fa13f"
+  integrity sha512-iMDNaUEMmSIJAXiWCbI+z8kGR2XWAWLmje42T/wnH9eAu063o0Z/lV/ml/fyiW9q/hPFZ9XtEcfqg4BdIeZd5Q==
   dependencies:
-    typescript "4.5.2"
+    typescript "5.9.3"
 
 next-translate@3.2.0:
   version "3.2.0"
@@ -2979,15 +2979,15 @@ typed-array-length@^1.0.7:
     possible-typed-array-names "^1.1.0"
     reflect.getprototypeof "^1.0.10"
 
-typescript@4.5.2:
-  version "4.5.2"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.5.2.tgz#8ac1fba9f52256fdb06fb89e4122fa6a346c2998"
-  integrity sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==
-
 typescript@4.8.3:
   version "4.8.3"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.8.3.tgz#d59344522c4bc464a65a730ac695007fdb66dd88"
   integrity sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==
+
+typescript@5.9.3:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.3.tgz#5b4f59e15310ab17a216f5d6cf53ee476ede670f"
+  integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
